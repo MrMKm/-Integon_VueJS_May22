@@ -7,7 +7,11 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <EjemploDirectivas/> -->
     <!-- <EjemploDirectivas2/> -->
-    <CarritoCompras/>
+    <!-- <CarritoCompras/> -->
+    <!-- <EjemploData/> -->
+    <!-- <EjemploData2/> -->
+    <!-- <EjemploData3/> -->
+    <EjemploAsync/>
   </div>
 </template>
 
@@ -19,6 +23,10 @@ import CuentaCaracteres from './components/Cuenta-Caracteres.vue'
 import EjemploDirectivas from './components/Ejemplo-Directivas.vue'
 import EjemploDirectivas2 from './components/Ejemplo-Directivas-2.vue'
 import CarritoCompras from './components/CarritoCompras.vue'
+import EjemploData from './components/Ejemplo-Data.vue'
+import EjemploData2 from './components/Ejemplo-Data2.vue'
+import EjemploData3 from './components/Ejemplo-Data3.vue'
+import EjemploAsync from './components/Ejemplo-Async.vue'
 
 export default {
   name: 'App',
@@ -29,7 +37,11 @@ export default {
     CuentaCaracteres,
     EjemploDirectivas,
     EjemploDirectivas2,
-    CarritoCompras
+    CarritoCompras,
+    EjemploData,
+    EjemploData2,
+    EjemploData3,
+    EjemploAsync
   }
 }
 </script>

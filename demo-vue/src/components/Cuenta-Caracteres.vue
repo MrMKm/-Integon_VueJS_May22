@@ -8,6 +8,18 @@
 <script>
 export default {
   name: "CuentaCaracteres",
+  beforeCreate() {
+    console.log('Before created');
+  },
+  created() {
+    console.log('created');
+  },
+  beforeMount() {
+    console.log('Before mount');
+  },
+  mounted() {
+    console.log('Mounted');
+  },
   props: {
   },
   data() {

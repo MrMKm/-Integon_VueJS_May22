@@ -4,10 +4,10 @@
       <label>
         Seleccione un producto
         <select name="producto" v-model="producto">
-          <option v-bind:value="{nombre:'Xbox Series X', precio:14000, cantidadProducto:cantidad}">Xbox Series X</option>
-          <option v-bind:value='{nombre:"Xbox Series S", precio:8000, cantidadProducto:cantidad}'>Xbox Series S</option>
-          <option v-bind:value='{nombre:"PS5", precio:14000, cantidadProducto:cantidad}'>PS5</option>
-          <option v-bind:value='{nombre:"Nintendo Switch", precio:9000, cantidadProducto:cantidad}'>Nintendo Switch</option>
+          <option v-bind:value="{nombre:'Xbox Series X', precio:14000, cantidadProducto:cantidad}">Xbox Series X - $14000</option>
+          <option v-bind:value='{nombre:"Xbox Series S", precio:8000, cantidadProducto:cantidad}'>Xbox Series S - $8000</option>
+          <option v-bind:value='{nombre:"PS5", precio:14000, cantidadProducto:cantidad}'>PS5 - $14000</option>
+          <option v-bind:value='{nombre:"Nintendo Switch", precio:9000, cantidadProducto:cantidad}'>Nintendo Switch - $9000</option>
         </select>
       </label>
       <label>
