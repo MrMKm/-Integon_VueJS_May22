@@ -11,7 +11,21 @@
     <!-- <EjemploData/> -->
     <!-- <EjemploData2/> -->
     <!-- <EjemploData3/> -->
-    <EjemploAsync/>
+    <!-- <EjemploAsync/> -->
+    <!-- <Greeting :greeting="'Hola'" :who="'Mundo'"/> -->
+    <!-- <Repeat :config="{ times: 3, content: 'Hola' }"/> -->
+    <Sloted>
+      <template #image>
+        <img src="https://picsum.photos/id/1015/300" />
+      </template>
+      <template #title>
+        <h2>My Holiday picture</h2>
+      </template>
+      <template #description>
+        <p>Here I can describe the contents of the picture.</p>
+        <p>For example what we can see in the photo is a nice landscape.</p>
+      </template>
+    </Sloted>
   </div>
 </template>
 
@@ -27,6 +41,9 @@ import EjemploData from './components/Ejemplo-Data.vue'
 import EjemploData2 from './components/Ejemplo-Data2.vue'
 import EjemploData3 from './components/Ejemplo-Data3.vue'
 import EjemploAsync from './components/Ejemplo-Async.vue'
+import Greeting from './components/Greeting.vue'
+import Repeat from './components/Repeat.vue'
+import Sloted from './components/Sloted.vue'
 
 export default {
   name: 'App',
@@ -41,7 +58,10 @@ export default {
     EjemploData,
     EjemploData2,
     EjemploData3,
-    EjemploAsync
+    EjemploAsync,
+    Greeting,
+    Repeat,
+    Sloted
   }
 }
 </script>
