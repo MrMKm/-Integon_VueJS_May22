@@ -17,7 +17,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                          <router-outlet></router-outlet>
+                          <router-view/>
                         </div>
                     </div>
                 </div>
@@ -105,13 +105,19 @@
 import Header from './shared/header.vue'
 import Breadcrumbs from './shared/breadcrumbs.vue'
 import Sidebar from './shared/sidebar.vue'
+import Dashboard from './pages/dashboard.vue';
+import Login from './auth/login.vue';
+import Register from './auth/register.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
     Breadcrumbs,
-    Sidebar
+    Sidebar,
+    Dashboard,
+    Login,
+    Register
   }
 }
 </script>

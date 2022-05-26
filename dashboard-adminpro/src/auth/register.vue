@@ -8,10 +8,10 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <!-- Favicon icon -->
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.png">
         <title>Admin Pro Admin Template - The Ultimate Bootstrap 4 Admin Template</title>
         <!-- Bootstrap Core CSS -->
-        <!-- <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+        <!-- <link href="./assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
         <!-- page css -->
         <!-- <link href="css/pages/login-register-lock.css" rel="stylesheet"> -->
         <!-- Custom CSS -->
@@ -40,11 +40,11 @@
         <!-- ============================================================== -->
         <!-- Main wrapper - style you can find in pages.scss -->
         <!-- ============================================================== -->
-        <section id="wrapper" class="login-register login-sidebar" style="background-image:url(/assets/images/background/login-register.jpg);">
+        <section id="wrapper" class="login-register login-sidebar" style="background-image:url(./assets/images/background/login-register.jpg);">
             <div class="login-box card">
                 <div class="card-body">
                     <form class="form-horizontal form-material" id="loginform" action="index.html">
-                        <a href="javascript:void(0)" class="text-center db"><img src="/assets/images/logo-icon.png" alt="Home" /><br/><img src="/assets/images/logo-text.png" alt="Home" /></a>
+                        <a href="javascript:void(0)" class="text-center db"><img src="./assets/images/logo-icon.png" alt="Home" /><br/><img src="./assets/images/logo-text.png" alt="Home" /></a>
                         <h3 class="box-title m-t-40 m-b-0">Register Now</h3><small>Create your account and enjoy</small>
                         <div class="form-group m-t-20">
                             <div class="col-xs-12">
@@ -76,7 +76,7 @@
                         </div>
                         <div class="form-group text-center m-t-20">
                             <div class="col-xs-12">
-                                <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit" (click)="setUsers()">Sign Up</button>
+                                <button class="btn btn-info btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Sign Up</button>
                             </div>
                         </div>
                         <div class="form-group m-b-0">
@@ -94,25 +94,10 @@
         <!-- ============================================================== -->
         <!-- All Jquery -->
         <!-- ============================================================== -->
-        <script src="/assets/plugins/jquery/jquery.min.js"></script>
+        <!-- <script src="./assets/plugins/jquery/jquery.min.js"></script>
         <!-- Bootstrap tether Core JavaScript -->
-        <script src="/assets/plugins/bootstrap/js/popper.min.js"></script>
-        <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript">
-            $(function() {
-                $(".preloader").fadeOut();
-            });
-            $(function() {
-                $('[data-toggle="tooltip"]').tooltip()
-            });
-            // ==============================================================
-            // Login and Recover Password
-            // ==============================================================
-            $('#to-recover').on("click", function() {
-                $("#loginform").slideUp();
-                $("#recoverform").fadeIn();
-            });
-        </script>
+        <!-- <script src="./assets/plugins/bootstrap/js/popper.min.js"></script>
+        <script src="./assets/plugins/bootstrap/js/bootstrap.min.js"></script> --> -->
     </body>
     </html>
 </template>
