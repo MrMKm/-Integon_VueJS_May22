@@ -2421,6 +2421,11 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+countable@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/countable/-/countable-3.0.1.tgz#1d0c1c426e8db08890534151ac7448c3642496ce"
+  integrity sha512-dz/sdi+RFpHJKMen5RAB9EKpCKd/q5WMfxG3SbdbQ3Pak4+SEPmDhVWZF0GTTHwjqjR+7DmiZHzZiFJ4qeAzmg==
+
 cross-spawn@^5.0.1:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -5938,6 +5943,13 @@ vue-cli-plugin-pug@~2.0.0:
     pug "^3.0.0"
     pug-plain-loader "^1.0.0"
     raw-loader "^4.0.2"
+
+vue-countable@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/vue-countable/-/vue-countable-1.0.9.tgz#308e55d55f6d5361eebcb64ac0cbbc3808885e0b"
+  integrity sha512-kQ/ElhotJ8K3ThY/z9vyRtNlYC5QYur8aOy1sMinKctzRAkuEQtRKJL/BkyG8U3dKJjjVz8alAICqIls0KmnzQ==
+  dependencies:
+    countable "^3.0.1"
 
 vue-eslint-parser@^8.0.1:
   version "8.3.0"
